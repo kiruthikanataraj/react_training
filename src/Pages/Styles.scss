@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+#counter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 20%;
+  left: 15%;
+  width: 25em;
+  display: flex;
+  text-align: center;
+  border: 1px solid black;
+  height: 15em;
+  > div {
+    margin: 10px;
+  }
+  h3{
+    font-size: 25px;
+    color: #4eef3c;
+  }
+  div{
+    font-size: 35px;
+    color: #6d20b2;
+    font-weight: bolder;
+  }
+  input {
+    &[type="number"] {
+      width: 200px;
+      height: 25px;
+    }
+
+    border: 1px solid black;
+    &[type="button"] {
+      background-color: #fff;
+      font-size: 20px;
+      padding: 0 10px;
+    }
+  }
+}
+
+#passProps {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    .leftBar{
+      width: 20%;
+      height: 100%;
+      margin: 2rem;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+    .shoppingItems{
+        width: 80%;
+        border-left: 1px solid black;
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+
+#restCall {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  img{
+    cursor: pointer;
+  }
+}
+
+#restCall td, #restCall th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#restCall tr:nth-child(even){background-color: #f2f2f2;}
+
+#restCall tr:hover {background-color: #ddd;}
+
+#restCall th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.loader {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  z-index: 1;
+
+}
