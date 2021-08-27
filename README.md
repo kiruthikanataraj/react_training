@@ -1,16 +1,16 @@
-# Download visual stuido code 
+### Download visual stuido code 
   
   Download visual stuido code from https://code.visualstudio.com/download and install in your machine
  
- # Install node
+### Install node
    
-   Download and install node from https://nodejs.org/en/download/
+  Download and install node from https://nodejs.org/en/download/
  
- # Open this project from visual studio code
+### Open this project from visual studio code
     
-    open the visual studio code and Choose new Project and open this folder
+  open the visual studio code and Choose new Project then open this folder
   
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
